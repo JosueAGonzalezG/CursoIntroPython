@@ -18,6 +18,8 @@ Crea un entorno virtual mediante ``venv``
     ``
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
+![Comando python3 -m venv env](https://github.com/JosueAGonzalezG/CursoIntroPython/blob/main/M%C3%B3dulo%202%20-%20Crear%20y%20administrar%20proyectos/Install%20env.png)
+
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
 
     ```
@@ -34,7 +36,7 @@ Crea un entorno virtual mediante ``venv``
 
 Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
 
-![image](https://user-images.githubusercontent.com/9124597/153076991-25e857c5-a910-4d54-80b9-47fce1b62147.png)
+![Activate](https://github.com/JosueAGonzalezG/CursoIntroPython/blob/main/M%C3%B3dulo%202%20-%20Crear%20y%20administrar%20proyectos/Activate.png)
 
 ## Instalar una biblioteca
 
@@ -65,7 +67,12 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     ```
     python-dateutil==2.8.2
     six==1.16.0
+
     ```
+
+
+![Activate](https://github.com/JosueAGonzalezG/CursoIntroPython/blob/main/M%C3%B3dulo%202%20-%20Crear%20y%20administrar%20proyectos/pipinstall.png)
+
 
 ### Desactivar un entorno virtual
 
@@ -77,6 +84,9 @@ deactivate
 ```
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
+
+![Activate](https://github.com/JosueAGonzalezG/CursoIntroPython/blob/main/M%C3%B3dulo%202%20-%20Crear%20y%20administrar%20proyectos/deactivate.png)
+
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
 
